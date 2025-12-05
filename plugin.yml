@@ -1,0 +1,30 @@
+name: AegisGuard
+version: 2.9.2.4
+main: me.frep.AegisGuard.spigot.AegisGuardPlugin
+api-version: 1.13
+authors: [frep, GladUrBad, Joshb_, Elevated, retrooper]
+description: AegisGuard Cheat Detection
+depend: [packetevents]
+softdepend: [DiscordBotAPI, PlaceholderAPI, ViaVersion, mcMMO, MythicMobs, CrackShot, LibsDisguises, floodgate, GSit, ProtocolSupport]
+
+commands:
+  alerts:
+    description: Toggle on and off AegisGuard's alert messages.
+    usage: /<command>
+  verbose:
+    description: Toggle on and off AegisGuard's verbose messages.
+    usage: /<command>
+  AegisGuard:
+    description: AegisGuard's main command.
+    usage: /<command>
+  jday:
+    description: Manage AegisGuard's Judgement Day feature.
+    usage: /<command>
+  logs:
+    description: In-game violations.txt access.
+    usage: /<command>
+  punishlogs:
+    description: In-game punishments.txt access.
+    usage: /<command>
+
+#I1NWNDNDpUSUdGWZV1TnJzZR5GZ5lkaOBTU650MFRUT4tGVlNXY10GZpJ0Z3cma3pUbwpmM
